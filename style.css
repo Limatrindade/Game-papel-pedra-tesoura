@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-box: box-sizing;
+}
+
+.game-box {
+    background-color: white;
+    color: white;
+}
+
+.game-titulo {
+    background-color: #2B3467;
+    padding: 2em;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.box-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    heigth: 250px;
+    width: 250px;
+    cursor: pointer;
+    opacity: 0.2;
+}
